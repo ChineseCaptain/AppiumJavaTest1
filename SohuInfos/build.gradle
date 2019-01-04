@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.github.appium:java-client:6.1.0'
+    implementation 'org.testng:testng:6.8.17'
+
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
